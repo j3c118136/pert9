@@ -1,0 +1,44 @@
+CRITICAL - 2020-11-20 07:35:51 --> Unable to connect to the database.
+#0 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\Pert10\app\Models\Prodi_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\Pert10\app\Controllers\Prodi.php(20): App\Models\Prodi_Model->get()
+#4 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Prodi->index()
+#5 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prodi))
+#6 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\Pert10\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\Pert10\\p...')
+#9 {main}
+CRITICAL - 2020-11-20 07:35:51 --> Unable to connect to the database.
+#0 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\Pert10\app\Models\Prodi_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\Pert10\app\Controllers\Prodi.php(20): App\Models\Prodi_Model->get()
+#4 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Prodi->index()
+#5 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prodi))
+#6 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\Pert10\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\Pert10\\p...')
+#9 {main}
+CRITICAL - 2020-11-20 07:35:54 --> Unable to connect to the database.
+#0 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\Pert10\app\Models\Mahasiswa_Model.php(34): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\Pert10\app\Controllers\Mahasiswa.php(25): App\Models\Mahasiswa_Model->get(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Mahasiswa->index()
+#5 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\Pert10\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\Pert10\\p...')
+#9 {main}
+CRITICAL - 2020-11-20 07:35:58 --> Unable to connect to the database.
+#0 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\WEB\Pert10\app\Controllers\Agama.php(17): CodeIgniter\Model->findAll()
+#4 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Agama->index()
+#5 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agama))
+#6 E:\WEB\Pert10\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\Pert10\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\Pert10\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\Pert10\\p...')
+#9 {main}
